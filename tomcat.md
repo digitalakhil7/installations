@@ -1,5 +1,6 @@
-##Install Java 1.8 on Centos
-Oracle Java
+## Install Java 1.8 on Centos
+### Oracle Java
+```bash
 #Login as a root user
 sudo su -
 
@@ -10,3 +11,4 @@ wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://downl
 yum install jdk-8u131-linux-x64.rpm -y
 
 java -version
+```
